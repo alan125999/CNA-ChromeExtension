@@ -3,7 +3,7 @@
 
   "name": "CNA 網管小工具",
   "description": "This extension allows NAs to copy data easily",
-  "version": "1.0",
+  "version": "0.4",
   "icons": {
      "16": "icon/icon16.png",
      "48": "icon/icon48.png",
