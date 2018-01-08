@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "CNA 網管系統排版工具",
+  "description": "This extension allows NAs to copy data easily",
+  "version": "4.0",
+  "icons": {
+     "16": "icon/icon16.png",
+     "48": "icon/icon48.png",
+     "128": "icon/icon128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icon/icon.png",
+    "default_popup": "popup.html",
+    "default_title": "CNA 網管系統排版工具"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches" : ["https://www.dorm.ccu.edu.tw/admini/users/*"],
+      "run_at" : "document_end",
+      "js" : ["content_script.js"]
+    }
+ ]
+}

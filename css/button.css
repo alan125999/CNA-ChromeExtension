@@ -1,0 +1,75 @@
+.btn:hover, .btn:focus {
+    text-decoration: none;
+}
+a:hover, a:focus {
+
+    text-decoration: underline;
+}
+a:active, a:hover {
+    outline: 0;
+}
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+.btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+.btn-purple {
+    color: #fff;
+    background-color: #ab5fd2;
+    border-color: #cd90ec;
+}
+.btn-red {
+    color: #fff;
+    background-color: #e87777;
+    border-color: #e87777;
+}
+.btn-pink {
+    color: #fff;
+    background-color: #f78ec8;
+    border-color: #f78ec8;
+}
+.btn {
+    display: inline-block;
+    padding: 6px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+}
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+a {
+    background: transparent;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

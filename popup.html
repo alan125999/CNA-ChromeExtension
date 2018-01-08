@@ -1,0 +1,41 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>CNA 網管系統小工具</title>
+    <meta charset="UTF-8">
+    <link rel=stylesheet type="text/css" href="css/popup.css">
+    <link rel=stylesheet type="text/css" href="css/switch.css">
+    <link rel=stylesheet type="text/css" href="css/button.css">
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+    -->
+    <script src="popup.js"></script>
+  </head>
+
+  <body>
+    <div class="header">CNA 網管系統小工具</div>
+    <div class="container">
+      <div class="sidebar">
+        <a class="btn btn-success sidebarItem" target="_blank" href="https://www.dorm.ccu.edu.tw/">宿網首頁</a>
+        <a class="btn btn-primary sidebarItem" target="_blank" href="https://www.dorm.ccu.edu.tw/student">申請系統</a>
+        <a class="btn btn-warning sidebarItem" target="_blank" href="https://www.dorm.ccu.edu.tw/admini/site/login">網管系統</a>
+        <a class="btn btn-info sidebarItem" target="_blank" href="https://www.dorm.ccu.edu.tw/support/admin/">Katak</a>
+        <a class="btn btn-pink sidebarItem" target="_blank" href="https://mantis.dorm.ccu.edu.tw/">Mantis</a>
+        <a class="btn btn-purple sidebarItem" target="_blank" href="http://project.dorm.ccu.edu.tw/dormSys/index.php">Cacti</a>
+      </div>
+      <div class="panel">
+        <label>顯示複製按鈕</label>
+        <input id="copyBtn" class="mui-switch mui-switch-anim" type="checkbox" >
+      </div>
+    </div>
+  </body>
+</html>
